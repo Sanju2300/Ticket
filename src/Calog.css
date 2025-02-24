@@ -1,0 +1,45 @@
+.cat {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+
+h2 {
+  font-weight: bolder;
+  text-align: center;
+  font-size: x-large;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+textarea {
+  resize: none;
+  box-shadow: #b6fbff;
+}
+
+#image {
+  margin-left: 400px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+#button {
+  margin-left: 470px;
+}
+
+#log {
+  margin-left: 30px;
+  border-radius: 30px;
+}
+
+#ites {
+  height: 250px;
+  width: 250px;
+  margin-left: 450px;
+}

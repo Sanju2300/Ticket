@@ -1,0 +1,80 @@
+.Sacl {
+  margin-left: 20px;
+  height: 95px;
+}
+
+.head {
+  color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.it {
+  height: 95px;
+  margin-left: 1185px;
+}
+
+.background {
+  height: 686px;
+  width: 1600px;
+  border: 2px solid black;
+  /* margin-left: 10px; */
+}
+
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+}
+.centered1 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+}
+
+.centered2 {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+}
+
+.help-link {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: #0063cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.help-link1 {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: #0063cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
