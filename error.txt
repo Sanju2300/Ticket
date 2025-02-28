@@ -1,0 +1,60 @@
+[1] An error occured: RequestError: Validation failed for parameter 'employee_no'. Invalid number.
+[1]     at E:\ticketingapp\node_modules\mssql\lib\tedious\request.js:449:19
+[1]     at Array.forEach (<anonymous>)
+[1]     at Request.userCallback (E:\ticketingapp\node_modules\mssql\lib\tedious\request.js:446:46)
+[1]     at Request.callback (E:\ticketingapp\node_modules\tedious\lib\request.js:239:14)
+[1]     at E:\ticketingapp\node_modules\tedious\lib\connection.js:1634:17
+[1]     at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+[1]   code: 'EPARAM',
+[1]   originalError: RequestError: Validation failed for parameter 'employee_no'. Invalid number.
+[1]       at Request.validateParameters (E:\ticketingapp\node_modules\tedious\lib\request.js:331:15)
+[1]       at Connection.execSql (E:\ticketingapp\node_modules\tedious\lib\connection.js:1629:15)
+[1]       ... 2 lines matching cause stack trace ...
+[1]       at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+[1]     code: 'EPARAM',
+[1]     [cause]: TypeError: Invalid number.
+[1]         at Object.validate (E:\ticketingapp\node_modules\tedious\lib\data-types\numeric.js:99:13)
+[1]         at Request.validateParameters (E:\ticketingapp\node_modules\tedious\lib\request.js:329:42)
+[1]         at Connection.execSql (E:\ticketingapp\node_modules\tedious\lib\connection.js:1629:15)
+[1]         at E:\ticketingapp\node_modules\mssql\lib\tedious\request.js:705:65
+[1]         at E:\ticketingapp\node_modules\mssql\lib\base\connection-pool.js:371:41
+[1]         at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[1]   },
+[1]   number: 'EPARAM',
+[1]   lineNumber: undefined,
+[1]   state: undefined,
+[1]   class: undefined,
+[1]   serverName: undefined,
+[1]   procName: undefined,
+[1]   precedingErrors: []
+[1] }
+[1] An error occured: RequestError: Validation failed for parameter 'employee_no'. Invalid number.
+[1]     at E:\ticketingapp\node_modules\mssql\lib\tedious\request.js:449:19
+[1]     at Array.forEach (<anonymous>)
+[1]     at Request.userCallback (E:\ticketingapp\node_modules\mssql\lib\tedious\request.js:446:46)
+[1]     at Request.callback (E:\ticketingapp\node_modules\tedious\lib\request.js:239:14)
+[1]     at E:\ticketingapp\node_modules\tedious\lib\connection.js:1634:17
+[1]     at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+[1]   code: 'EPARAM',
+[1]   originalError: RequestError: Validation failed for parameter 'employee_no'. Invalid number.
+[1]       at Request.validateParameters (E:\ticketingapp\node_modules\tedious\lib\request.js:331:15)
+[1]       at Connection.execSql (E:\ticketingapp\node_modules\tedious\lib\connection.js:1629:15)
+[1]       ... 2 lines matching cause stack trace ...
+[1]       at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+[1]     code: 'EPARAM',
+[1]     [cause]: TypeError: Invalid number.
+[1]         at Object.validate (E:\ticketingapp\node_modules\tedious\lib\data-types\numeric.js:99:13)
+[1]         at Request.validateParameters (E:\ticketingapp\node_modules\tedious\lib\request.js:329:42)
+[1]         at Connection.execSql (E:\ticketingapp\node_modules\tedious\lib\connection.js:1629:15)
+[1]         at E:\ticketingapp\node_modules\mssql\lib\tedious\request.js:705:65
+[1]         at E:\ticketingapp\node_modules\mssql\lib\base\connection-pool.js:371:41
+[1]         at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[1]   },
+[1]   number: 'EPARAM',
+[1]   lineNumber: undefined,
+[1]   state: undefined,
+[1]   class: undefined,
+[1]   serverName: undefined,
+[1]   procName: undefined,
+[1]   precedingErrors: []
+[1] }

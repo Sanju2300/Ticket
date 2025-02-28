@@ -1,12 +1,11 @@
 .cat {
-  margin-left: 20px;
+  margin-left: 60px;
   margin-top: 10px;
 }
 
-
 h2 {
   font-weight: bolder;
-  text-align: center;
+  /* text-align: center; */
   font-size: x-large;
 }
 
@@ -20,7 +19,8 @@ textarea {
 }
 
 #image {
-  margin-left: 400px;
+  height: 100px;
+  /* margin-left: 400px; */
   margin-bottom: 40px;
   border-radius: 20px;
 }
@@ -39,7 +39,18 @@ label {
 }
 
 #ites {
-  height: 250px;
-  width: 250px;
-  margin-left: 450px;
+  height: 200px;
+  width: 200px;
+  /* margin-left: 450px; */
+}
+
+#it1 {
+  height: 150px;
+  margin-left: 850px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
