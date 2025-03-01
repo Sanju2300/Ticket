@@ -64,6 +64,7 @@ app.get("/api/get-ticket", async (req, res) => {
 // });
 
 //Post method to push the details which are entered through the text field
+
 app.post("/api/submit-ticket", async (req, res) => {
   try {
     const pool = await sql.connect(config);
@@ -73,13 +74,13 @@ app.post("/api/submit-ticket", async (req, res) => {
 
     const query = `
         INSERT INTO m_ticketdetails ( department, employee_no, raised_by, problem, remarks )
-        VALUES ( @department, @employee_no, @devicelast_Serial, @devicestatus, @remarks );
+        VALUES ( @department, @employee_no, @raised_by, @problem, @remarks );
         `;
 
     await pool
       .request()
       .input("department", sql.NVarChar, department)
-      .input("employee_no", sql.Numeric, employee_no)
+      .input("employee_no", sql.Int, employee_no)
       .input("raised_by", sql.NVarChar, raised_by)
       .input("problem", sql.NVarChar, problem)
       .input("remarks", sql.NVarChar, remarks)

@@ -69,7 +69,7 @@ import "./Calog.css";
         {/* <img src={ites} className='img-fluid shadow-4' alt='...' id="ites"  /> */}
         <div class="row">
           <h2 style={{marginTop: '20px', marginLeft: '500px'}}>ITES SUPPORT</h2>
-          <div class="form-group col-2 mt-5">
+          <div class="form-group col-3 mt-5">
             <label for="inputState">Department *</label>
             <select id="inputState" class="form-control" required onChange={setInput}>
               <option selected>Choose...</option>
@@ -120,7 +120,7 @@ import "./Calog.css";
               
             </select>
           </div>
-          <div class="form-group col-2 mt-5">
+          <div class="form-group col-3 mt-5">
             <label for="inputState">Employee No</label>
             {/* <select id="inputState" class="form-control" required> */}
               <input
@@ -132,7 +132,7 @@ import "./Calog.css";
               />
             {/* </select> */}
           </div>
-          <div class="form-group col-2 mt-5">
+          <div class="form-group col-3 mt-5">
             <label for="inputState">Raised By</label>
             {/* <select id="inputState" class="form-control" required> */}
               <input
@@ -144,7 +144,7 @@ import "./Calog.css";
               />
             {/* </select> */}
           </div>
-          <div class="form-group col-2 mt-5">
+          <div class="form-group col-3 mt-5">
             <label for="inputState">Problem</label>
             <select id="inputState" class="form-control" required onChange={setInput}>
               <option selected>Choose...</option>
@@ -189,7 +189,6 @@ import "./Calog.css";
             />
           </div>
         </div> */}
-
         <div class="row">
           <label style={{textAlign: 'left'}}>Remarks *</label>
           <textarea
