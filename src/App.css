@@ -4,17 +4,6 @@
 
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -39,3 +28,76 @@
   padding-top: 20px;
   width: 1130px;
 } */
+
+/* General Styles */
+.App {
+  width: 70%;
+  margin: 0 auto; /* Center the app on larger screens */
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin); 
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+/* For Large Screens (Desktops) */
+@media (min-width: 1200px) {
+  .App {
+    width: 60%; /* Slightly smaller width for large screens */
+  }
+
+  .App-header {
+    font-size: calc(10px + 1.5vmin);
+  }
+}
+
+/* For Medium Screens (Tablets) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .App {
+    width: 80%;
+  }
+
+  .App-header {
+    font-size: calc(12px + 2vmin); /* Slightly larger font for tablets */
+  }
+}
+
+/* For Small Screens (Mobile Devices) */
+@media (max-width: 767px) {
+  .App {
+    width: 90%;
+  }
+
+  .App-header {
+    font-size: calc(14px + 2vmin); /* Larger font for readability on mobile */
+    padding: 0 10px;
+  }
+
+  /* Adjust .App-link on small screens for readability */
+  .App-link {
+    font-size: 1.2rem;
+  }
+}
+
+/* For Extra Small Screens (Very Small Mobile Devices) */
+@media (max-width: 480px) {
+  .App-header {
+    font-size: calc(16px + 2vmin);
+  }
+
+  .App-link {
+    font-size: 1.5rem;
+  }
+}

@@ -28,7 +28,7 @@ app.get("/api/get-ticket", async (req, res) => {
     await poolConnect;
 
     const request = pool.request();
-    const result = await request.query(`SELECT * FROM m_ticketdetails`);
+    const result = await request.query(`SELECT * FROM m_ticket`);
     const dataWithId = result.recordset.map((record, index) => ({
       id: index + 1,
       ...record,
@@ -73,7 +73,7 @@ app.post("/api/submit-ticket", async (req, res) => {
       req.body;
 
     const query = `
-        INSERT INTO m_ticketdetails ( department, employee_no, raised_by, problem, remarks )
+        INSERT INTO m_ticket ( department, employee_no, raised_by, problem, remarks )
         VALUES ( @department, @employee_no, @raised_by, @problem, @remarks );
         `;
 

@@ -5,7 +5,7 @@
 
 h2 {
   font-weight: bolder;
-  /* text-align: center; */
+  text-align: center;
   font-size: x-large;
 }
 
@@ -29,9 +29,18 @@ label {
   font-weight: bold;
 }
 
-#button {
-  margin-left: 470px;
+#inputRemarks {
+  width: 1100px;
+  margin-left: 20px;
 }
+
+#submitButton {
+  /* width: 200px; */
+  margin: 0 500px;
+  display: block;
+  /* margin-left: 30px; */
+}
+
 
 #log {
   margin-left: 30px;
@@ -41,13 +50,14 @@ label {
 #ites {
   height: 200px;
   width: 200px;
-  /* margin-left: 450px; */
 }
 
 #it1 {
-  height: 150px;
-  margin-left: 850px;
+  height: 150px; 
+  float: right; 
+  margin-right: 20px;
 }
+
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
